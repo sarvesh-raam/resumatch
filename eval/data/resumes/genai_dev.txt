@@ -1,0 +1,17 @@
+Ananya Krishnan
+ananya.k@example.com | github.com/ananyak
+
+Experience
+AI Engineer Intern, Chennai-based SaaS startup | Mar 2025 – Sep 2025
+- Built a RAG assistant over 4,000 support articles using LangChain, OpenAI embeddings and Pinecone
+- Wrote an evaluation set of 150 questions to compare chunking strategies; answer accuracy went from 62% to 79%
+- Served the assistant with FastAPI and streamed tokens to the UI over server-sent events
+
+Projects
+Contract reader
+- Extracts clauses from PDF contracts with an LLM and structured JSON output, validated with Pydantic
+Agent playground
+- LangGraph agent that plans tool calls against a SQL database
+
+Skills
+Python, LLMs, RAG, LangChain, LangGraph, Prompt engineering, FastAPI, Vector databases, Docker, SQL

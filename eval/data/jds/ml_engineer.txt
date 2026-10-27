@@ -1,0 +1,16 @@
+Machine Learning Engineer
+
+Responsibilities
+- Train, evaluate and ship NLP models for document understanding
+- Build data pipelines for labelling and evaluation
+- Deploy models as APIs and monitor them in production
+
+Qualifications
+- Strong Python and PyTorch
+- Hands-on experience with transformers or Hugging Face models
+- Experience with MLOps tooling such as MLflow
+- Good grasp of machine learning fundamentals and evaluation metrics
+
+Preferred
+- Experience with AWS
+- Computer vision exposure is a plus

@@ -1,0 +1,15 @@
+Sneha Kulkarni
+sneha.k@example.com
+
+Work Experience
+Associate Software Engineer — Infosys — Jul 2023 – Present
+• Develop Spring Boot microservices for a retail banking client, using MySQL and Kafka for event streaming
+• Wrote JUnit and integration tests; moved builds to Jenkins pipelines
+• Migrated two services to AWS (EC2, S3) with Terraform
+
+Projects
+Inventory service
+• REST API in Java and Spring Boot with role-based access using JWT
+
+Technical Skills
+Java, Spring Boot, MySQL, Kafka, AWS, Jenkins, Docker, Git, Microservices

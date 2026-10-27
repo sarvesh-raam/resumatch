@@ -1,0 +1,17 @@
+Neha Sharma
+neha.sharma@example.com | nehasharma.dev
+
+Experience
+Frontend Developer Intern — Zoho-like SaaS company — Jun 2024 – Jan 2025
+• Rebuilt the billing settings pages in React and TypeScript, cutting bundle size by 30%
+• Added Jest and React Testing Library tests for the form components
+• Worked with designers on an accessible component library styled with Tailwind CSS
+
+Projects
+Portfolio CMS
+• Next.js site with a headless CMS, server-side rendering and image optimisation
+Kanban board
+• Drag-and-drop board in React with Redux, persisted to localStorage
+
+Skills
+JavaScript, TypeScript, React, Next.js, Redux, HTML, CSS, Tailwind CSS, Jest, Git

@@ -1,0 +1,22 @@
+Backend Engineer (Python)
+
+About us
+We run payment infrastructure for small businesses across India.
+
+What you'll do
+- Design and build backend services and APIs that handle money movement
+- Own services in production, including on-call and incident follow-ups
+- Work with product to break down features into small, shippable pieces
+
+Requirements
+- Strong Python, with FastAPI or Django
+- Solid SQL and PostgreSQL, including indexing and query tuning
+- Experience with Docker and deploying services to a cloud provider (AWS or GCP)
+- Writes tests as part of normal development
+
+Nice to have
+- Kafka or another message queue
+- Redis
+
+Benefits
+- Health cover, learning budget

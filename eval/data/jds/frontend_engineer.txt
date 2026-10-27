@@ -1,0 +1,16 @@
+Frontend Engineer
+
+What you will do:
+- Build product UI in React and TypeScript
+- Own component quality, accessibility and performance
+- Work closely with design to ship polished screens
+
+What we're looking for:
+- 2+ years building web apps
+- Strong React and TypeScript
+- Comfortable with HTML and CSS, Tailwind CSS preferred
+- Writes unit tests with Jest or similar
+
+Nice to have:
+- Next.js experience
+- State management with Redux

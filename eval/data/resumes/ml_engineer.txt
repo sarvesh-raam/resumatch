@@ -1,0 +1,17 @@
+Rahul Iyer
+rahul.iyer@example.com | linkedin.com/in/rahuliyer
+
+Experience
+Machine Learning Intern, Fractal Analytics | May 2025 - Dec 2025
+- Fine-tuned a BERT model in PyTorch for support-ticket classification, F1 0.81 to 0.88
+- Tracked experiments with MLflow and served the model behind a FastAPI endpoint on AWS SageMaker
+- Built an NLP pipeline for entity extraction with Hugging Face transformers
+
+Projects
+Image search
+- CLIP embeddings with a FAISS index for text-to-image search over 50k product photos
+Churn model
+- XGBoost churn model on 200k rows with SHAP explanations, pandas for feature engineering
+
+Skills
+Python, PyTorch, TensorFlow, scikit-learn, Hugging Face, NLP, Computer Vision, MLflow, SQL, Docker, AWS

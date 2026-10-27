@@ -1,0 +1,17 @@
+Kavya Reddy
+kavya.reddy@example.com
+
+PROFESSIONAL EXPERIENCE
+Business Analyst Intern | Swiggy-style food delivery company | Jan 2025 – Jul 2025
+- Wrote SQL queries on BigQuery to track weekly order funnels across 12 cities
+- Built Tableau dashboards used by the city operations team every Monday
+- Ran A/B test analysis on a discount banner and presented results to the product manager
+
+PROJECTS
+Sales analysis
+- Cleaned 3 years of sales data with pandas and Excel, built a Power BI report with region drill-downs
+Survey analysis
+- Hypothesis testing on a 1,200-response survey using Python and statistics
+
+SKILLS
+SQL, Excel, Tableau, Power BI, Python, pandas, Statistics, BigQuery

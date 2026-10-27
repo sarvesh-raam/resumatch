@@ -1,0 +1,16 @@
+Vikram Singh
+vikram.singh@example.com
+
+EXPERIENCE
+Full Stack Intern | Local startup | Feb 2025 – May 2025
+- Built an admin panel with React on the front and Node.js + Express on the back, data in MongoDB
+- Added JWT authentication and role checks to the Express API
+
+PROJECTS
+Event booking app
+- MERN stack app (MongoDB, Express, React, Node.js) with seat locking and Stripe test payments
+Chat app
+- Real-time chat over Socket.io with typing indicators
+
+SKILLS
+JavaScript, Node.js, Express, MongoDB, React, HTML, CSS, Git

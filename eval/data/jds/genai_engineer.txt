@@ -1,0 +1,16 @@
+GenAI Engineer
+
+You will
+- Build LLM features into our product, from prototype to production
+- Design retrieval pipelines and evaluate answer quality
+- Ship Python services that serve these features
+
+Must have
+- Python and FastAPI
+- Experience building RAG systems with a vector database
+- Prompt engineering and structured LLM output
+- A habit of measuring quality with evaluation sets
+
+Nice to have
+- LangChain or LangGraph
+- Docker

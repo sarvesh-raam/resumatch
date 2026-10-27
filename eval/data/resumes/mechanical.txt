@@ -1,0 +1,15 @@
+Karthik Subramanian
+karthik.s@example.com
+
+Experience
+Graduate Engineer Trainee | Ashok Leyland | Jul 2024 – Present
+- Designed brackets and fixtures in SolidWorks for the chassis assembly line
+- Ran time studies on the welding cell and cut cycle time by 8%
+- Maintained the line's daily production report in Excel
+
+Projects
+Go-kart
+- Led the frame design team for a college go-kart, FEA in ANSYS
+
+Skills
+SolidWorks, AutoCAD, ANSYS, Excel, basic Python

@@ -1,0 +1,11 @@
+Rohan Das
+rohan.das@example.com
+
+Projects
+To-do app
+- Made a to-do list app following a YouTube tutorial
+Calculator
+- Simple calculator
+
+Skills
+Python, Java, C++, JavaScript, TypeScript, React, Angular, Vue, Node.js, Django, FastAPI, Spring Boot, PostgreSQL, MongoDB, Redis, Kafka, Docker, Kubernetes, AWS, Azure, GCP, Terraform, PyTorch, TensorFlow, NLP, LLMs, RAG, LangChain, Tableau, Power BI, Excel, SQL

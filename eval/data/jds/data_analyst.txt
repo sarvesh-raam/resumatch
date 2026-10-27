@@ -1,0 +1,19 @@
+Data Analyst
+
+About the team
+The analytics team supports operations and marketing.
+
+Responsibilities
+- Answer business questions with data and present findings to stakeholders
+- Build and maintain dashboards for weekly reporting
+- Design and analyse A/B tests
+
+Requirements
+- Excellent SQL
+- Tableau or Power BI
+- Advanced Excel
+- Solid statistics, including hypothesis testing
+
+Good to have
+- Python with pandas
+- BigQuery

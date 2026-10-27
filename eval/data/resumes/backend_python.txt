@@ -1,0 +1,17 @@
+Arjun Mehta
+arjun.mehta@example.com | github.com/arjunm
+
+EXPERIENCE
+Software Engineer Intern | Razorpay-like payments startup | Jan 2025 – Jun 2025
+- Built REST endpoints in FastAPI for the payouts service; p95 latency dropped from 420 ms to 180 ms after adding PostgreSQL indexes
+- Moved nightly reconciliation to a Kafka consumer with retries and a dead-letter topic
+- Containerised three services with Docker and wrote the docker-compose setup the team uses locally
+
+PROJECTS
+Ledger API
+- Double-entry ledger service in Python with FastAPI, SQLAlchemy and PostgreSQL, with pytest coverage around 85%
+Rate limiter
+- Token bucket rate limiter backed by Redis, deployed on AWS EC2 behind Nginx
+
+SKILLS
+Python, SQL, FastAPI, Django, PostgreSQL, Redis, Kafka, Docker, AWS, Git, Linux
