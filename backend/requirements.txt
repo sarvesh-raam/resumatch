@@ -1,0 +1,9 @@
+fastapi==0.135.2
+uvicorn[standard]==0.42.0
+python-multipart==0.0.22
+pydantic==2.12.3
+PyMuPDF==1.27.2.2
+PyYAML==6.0.3
+numpy==2.4.4
+scikit-learn==1.8.0
+sentence-transformers==5.4.1

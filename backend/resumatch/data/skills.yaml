@@ -1,0 +1,247 @@
+# Skill dictionary used for extraction.
+#
+# Matching rule: an alias written in lowercase is matched case-insensitively,
+# an alias with any capital letter is matched exactly. That's how "React" (the
+# library) is kept apart from "react to incidents", or "Go" from "go-to".
+#
+# `implies` lists skills that someone who uses this one clearly has, e.g. a
+# PostgreSQL user knows SQL. Implied skills show up as "implied", not "found".
+
+languages:
+  - name: Python
+    aliases: [python, python3]
+  - name: Java
+    aliases: [Java, JAVA]
+  - name: JavaScript
+    aliases: [javascript, js, ecmascript, es6]
+  - name: TypeScript
+    aliases: [typescript, ts]
+  - name: C++
+    aliases: [c++, cpp]
+  - name: C
+    aliases: [C]
+  - name: C#
+    aliases: [c#, csharp]
+  - name: Go
+    aliases: [golang, Go]
+  - name: Rust
+    aliases: [Rust, rustlang]
+  - name: Kotlin
+    aliases: [kotlin]
+  - name: Swift
+    aliases: [Swift]
+  - name: Scala
+    aliases: [scala]
+  - name: R
+    aliases: [R]
+  - name: SQL
+    aliases: [sql]
+  - name: Bash
+    aliases: [bash, shell scripting, shell scripts]
+  - name: PHP
+    aliases: [php]
+  - name: Ruby
+    aliases: [ruby]
+
+backend:
+  - name: FastAPI
+    aliases: [fastapi]
+    implies: [Python, REST APIs]
+  - name: Django
+    aliases: [django]
+    implies: [Python]
+  - name: Flask
+    aliases: [flask]
+    implies: [Python]
+  - name: Node.js
+    aliases: [node.js, nodejs, Node]
+    implies: [JavaScript]
+  - name: Express
+    aliases: [express.js, expressjs, Express]
+    implies: [Node.js]
+  - name: Spring Boot
+    aliases: [spring boot, springboot]
+    implies: [Java]
+  - name: .NET
+    aliases: [.net, asp.net, dotnet]
+  - name: REST APIs
+    aliases: [rest api, rest apis, restful, restful api, restful apis]
+  - name: GraphQL
+    aliases: [graphql]
+  - name: gRPC
+    aliases: [grpc]
+  - name: WebSockets
+    aliases: [websocket, websockets, socket.io]
+  - name: Microservices
+    aliases: [microservice, microservices]
+  - name: Celery
+    aliases: [celery]
+  - name: Kafka
+    aliases: [kafka]
+  - name: RabbitMQ
+    aliases: [rabbitmq]
+
+frontend:
+  - name: React
+    aliases: [React, react.js, reactjs]
+    implies: [JavaScript]
+  - name: Next.js
+    aliases: [next.js, nextjs]
+    implies: [React]
+  - name: Vue
+    aliases: [vue, vue.js, vuejs, vue 3]
+    implies: [JavaScript]
+  - name: Angular
+    aliases: [angular]
+  - name: HTML
+    aliases: [html, html5]
+  - name: CSS
+    aliases: [css, css3]
+  - name: Tailwind CSS
+    aliases: [tailwind, tailwindcss, tailwind css]
+    implies: [CSS]
+  - name: Redux
+    aliases: [redux]
+  - name: Three.js
+    aliases: [three.js, threejs, react three fiber]
+
+databases:
+  - name: PostgreSQL
+    aliases: [postgresql, postgres, psql]
+    implies: [SQL]
+  - name: MySQL
+    aliases: [mysql]
+    implies: [SQL]
+  - name: SQLite
+    aliases: [sqlite]
+    implies: [SQL]
+  - name: MongoDB
+    aliases: [mongodb, mongo]
+  - name: Redis
+    aliases: [redis]
+  - name: Elasticsearch
+    aliases: [elasticsearch, elastic search, opensearch]
+  - name: DynamoDB
+    aliases: [dynamodb]
+  - name: Cassandra
+    aliases: [cassandra]
+  - name: Snowflake
+    aliases: [Snowflake]
+  - name: BigQuery
+    aliases: [bigquery]
+  - name: Vector databases
+    aliases: [vector database, vector databases, vector db, chromadb, chroma, pinecone, faiss, qdrant, weaviate, pgvector, milvus]
+
+ml:
+  - name: Machine Learning
+    aliases: [machine learning, ml]
+  - name: Deep Learning
+    aliases: [deep learning, neural network, neural networks]
+  - name: NLP
+    aliases: [nlp, natural language processing]
+  - name: Computer Vision
+    aliases: [computer vision, image processing, object detection]
+  - name: PyTorch
+    aliases: [pytorch, torch]
+    implies: [Python, Deep Learning]
+  - name: TensorFlow
+    aliases: [tensorflow, keras]
+    implies: [Python, Deep Learning]
+  - name: scikit-learn
+    aliases: [scikit-learn, sklearn, scikit learn]
+    implies: [Python, Machine Learning]
+  - name: XGBoost
+    aliases: [xgboost, lightgbm, catboost]
+    implies: [Machine Learning]
+  - name: pandas
+    aliases: [pandas]
+    implies: [Python]
+  - name: NumPy
+    aliases: [numpy]
+    implies: [Python]
+  - name: Hugging Face
+    aliases: [hugging face, huggingface, transformers library]
+  - name: LLMs
+    aliases: [llm, llms, large language model, large language models, gpt, openai api, groq, llama, claude api, gemini api]
+  - name: RAG
+    aliases: [rag, retrieval augmented generation, retrieval-augmented generation]
+    implies: [LLMs]
+  - name: LangChain
+    aliases: [langchain]
+    implies: [LLMs]
+  - name: LangGraph
+    aliases: [langgraph]
+    implies: [LLMs]
+  - name: Prompt engineering
+    aliases: [prompt engineering, prompting]
+  - name: Embeddings
+    aliases: [embedding, embeddings, sentence-transformers, sentence transformers]
+  - name: Reinforcement Learning
+    aliases: [reinforcement learning, ppo, dqn, q-learning]
+  - name: MLOps
+    aliases: [mlops, mlflow, model deployment, model serving]
+  - name: Statistics
+    aliases: [statistics, statistical analysis, hypothesis testing, a/b testing]
+  - name: OpenCV
+    aliases: [opencv]
+    implies: [Computer Vision]
+  - name: Explainable AI
+    aliases: [explainable ai, xai, shap, lime]
+
+data:
+  - name: Spark
+    aliases: [spark, pyspark, apache spark]
+  - name: Airflow
+    aliases: [airflow]
+  - name: dbt
+    aliases: [dbt]
+  - name: ETL
+    aliases: [etl, elt, data pipeline, data pipelines]
+  - name: Tableau
+    aliases: [tableau]
+  - name: Power BI
+    aliases: [power bi, powerbi]
+  - name: Excel
+    aliases: [Excel, MS Excel, Microsoft Excel]
+  - name: Data visualization
+    aliases: [data visualization, data visualisation, matplotlib, seaborn, plotly, d3.js, d3]
+
+cloud_devops:
+  - name: AWS
+    aliases: [aws, amazon web services, ec2, s3]
+  - name: GCP
+    aliases: [gcp, google cloud]
+  - name: Azure
+    aliases: [azure]
+  - name: Docker
+    aliases: [docker, docker compose, docker-compose, containerization, containers]
+  - name: Kubernetes
+    aliases: [kubernetes, k8s, helm, eks, gke, aks]
+  - name: Terraform
+    aliases: [terraform]
+  - name: CI/CD
+    aliases: [ci/cd, ci, cicd, continuous integration, github actions, jenkins, gitlab ci]
+  - name: Linux
+    aliases: [linux, unix, ubuntu]
+  - name: Git
+    aliases: [git, github, gitlab]
+  - name: Prometheus
+    aliases: [prometheus]
+  - name: Grafana
+    aliases: [grafana]
+  - name: Nginx
+    aliases: [nginx]
+
+practices:
+  - name: Testing
+    aliases: [testing, tests, test cases, unit testing, unit tests, pytest, jest, junit, integration tests, test-driven, tdd]
+  - name: System design
+    aliases: [system design, distributed systems, scalability]
+  - name: Data structures & algorithms
+    aliases: [data structures, algorithms, dsa, leetcode]
+  - name: OOP
+    aliases: [oop, object oriented, object-oriented]
+  - name: Agile
+    aliases: [agile, scrum, kanban]
+  - name: Authentication
+    aliases: [jwt, oauth, oauth2, authentication, rbac]

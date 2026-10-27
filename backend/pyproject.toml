@@ -1,0 +1,18 @@
+[project]
+name = "resumatch"
+version = "0.1.0"
+description = "Match a resume against a job description and explain the gaps"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+# B008: FastAPI's File()/Form() defaults are the intended pattern
+ignore = ["E741", "B008", "B905"]
