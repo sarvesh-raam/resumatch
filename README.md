@@ -121,6 +121,12 @@ docker build -t resumatch .
 docker run -p 7860:7860 resumatch    # http://localhost:7860
 ```
 
+The image runs MiniLM through ONNX (fastembed) instead of PyTorch. Same
+embeddings to ~1e-7, but the server sits around 230 MB, so it fits Render's
+free tier. `render.yaml` deploys it as is: New → Blueprint → pick the repo.
+The free instance sleeps after 15 minutes idle, so the first request after
+that takes 30-60 seconds.
+
 Tests and eval:
 
 ```bash

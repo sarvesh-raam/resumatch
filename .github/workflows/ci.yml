@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: backend/requirements*.txt
-      # tests use the hashing embedder, so skip the big torch download
+      # tests use the hashing embedder, so skip the model download
       - run: pip install fastapi uvicorn python-multipart pydantic PyMuPDF PyYAML numpy scikit-learn pytest httpx ruff
       - run: ruff check .
       - run: pytest -q

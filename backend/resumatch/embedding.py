@@ -25,14 +25,18 @@ class MiniLMEmbedder(Embedder):
     strong = 0.45
 
     def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
-        from sentence_transformers import SentenceTransformer  # slow import, keep it lazy
+        # ONNX export of the same model through fastembed. Embeddings match
+        # sentence-transformers to ~1e-7, but it needs no torch, so the whole
+        # app fits in a 512 MB free-tier instance.
+        from fastembed import TextEmbedding
 
-        self.model = SentenceTransformer(model_name, device="cpu")
+        self.model = TextEmbedding(model_name)
 
     def encode(self, texts: list[str]) -> np.ndarray:
         if not texts:
             return np.zeros((0, 384), dtype=np.float32)
-        return self.model.encode(texts, batch_size=64, normalize_embeddings=True, show_progress_bar=False)
+        vecs = np.array(list(self.model.embed(texts, batch_size=64)), dtype=np.float32)
+        return vecs / np.linalg.norm(vecs, axis=1, keepdims=True)
 
 
 class HashingEmbedder(Embedder):

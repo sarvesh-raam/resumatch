@@ -10,14 +10,12 @@ RUN npm run build
 FROM python:3.12-slim
 WORKDIR /app
 
-# CPU-only torch keeps the image ~1.5 GB smaller than the default CUDA wheel
-RUN pip install --no-cache-dir torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
 COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # bake the model into the image so cold starts don't download it
-ENV HF_HOME=/app/.cache/huggingface
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
+ENV FASTEMBED_CACHE_PATH=/app/.cache/fastembed
+RUN python -c "from fastembed import TextEmbedding; TextEmbedding('sentence-transformers/all-MiniLM-L6-v2')"
 
 COPY backend/resumatch ./resumatch
 COPY --from=web /web/dist ./static
