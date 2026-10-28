@@ -8,6 +8,9 @@ them up.
 It also ranks a batch of resumes against one JD, for when you're on the other
 side of the table.
 
+**Try it:** https://resumatch-hx00.onrender.com (free instance, the first load
+after it's been idle takes 30-60 seconds)
+
 ![ResuMatch result for a Java developer against a Python backend posting](docs/screenshot.png)
 
 Real output for one of the eval pairs (a Java/Spring developer against a
